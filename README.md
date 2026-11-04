@@ -14,6 +14,15 @@
 
 | Project | What it is | Built with |
 | --- | --- | --- |
+| [**terraform-aws-eks-platform**](https://github.com/Captainpeace6/terraform-aws-eks-platform) | Multi-AZ VPC and EKS with dev/prod environments, keyless GitHub OIDC deploys, plan on every PR, weekly drift detection. | AWS · EKS · Terraform · GitHub Actions · Checkov |
+| [**azure-hub-spoke-terraform**](https://github.com/Captainpeace6/azure-hub-spoke-terraform) | Hub-and-spoke network with a shared Azure Firewall, parent/child firewall policies, forced tunneling and dev/prod isolation. Azure DevOps applies only the plan a reviewer approved. | Azure · Terraform · Azure DevOps · Workload Identity |
+| [**k8s-gitops-argocd**](https://github.com/Captainpeace6/k8s-gitops-argocd) | Argo CD app-of-apps, a hardened Helm chart (HPA, PDB, NetworkPolicy), Prometheus alerts with runbooks, and e2e deploys to a kind cluster in CI. | Kubernetes · Helm · Argo CD · Prometheus |
+| [**cicd-pipeline-templates**](https://github.com/Captainpeace6/cicd-pipeline-templates) | One container pipeline written for three CI systems: test, build, Trivy scan, smoke test, SBOM, push and cosign signing. | GitHub Actions · Jenkins · Azure DevOps · Docker |
+
+### 🌙 Side quests
+
+| Project | What it is | Built with |
+| --- | --- | --- |
 | [**KRYPTAA**](https://kryptaa.com) | My gothic streetwear brand. Storefront on GitHub Pages, sales API on Cloudflare Workers handling checkout, Stripe webhooks, stock, reviews and shipping. | GitHub Pages · Cloudflare Workers · Stripe |
 | [**Krypta-v2**](https://github.com/Captainpeace6/Krypta-v2) | The KRYPTAA storefront code. | HTML · CSS · JS |
 | [**ZeroFace Lab**](https://www.youtube.com/@Zerofacelabb) | Faceless AI-cinema series: chapter cards, one music track, beat-synced cuts. | AI video · editing |
